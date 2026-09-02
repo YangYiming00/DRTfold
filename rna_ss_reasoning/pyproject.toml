@@ -6,12 +6,6 @@ build-backend = "hatchling.build"
 name = "modelgenerator"
 version = "0.1.2"
 description = "AIDO.ModelGenerator is a software stack powering the development of an AI-driven Digital Organism by enabling researchers to adapt pretrained models and generate finetuned models for downstream tasks."
-readme = "README.md"
-authors = [
-    { name = "GenBio AI" },
-    { name = "Caleb Ellington", email = "caleb.ellington@genbio.ai" },
-    { name = "Dian Li", email = "dian.li@genbio.ai" },
-]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
@@ -75,7 +69,3 @@ package = ["modelgenerator"]
 
 [tool.hatch.metadata]
 allow-direct-references = true
-
-[project.urls]
-"Homepage" = "https://genbio-ai.github.io/ModelGenerator"
-"Source" = "https://github.com/genbio-ai/ModelGenerator"
