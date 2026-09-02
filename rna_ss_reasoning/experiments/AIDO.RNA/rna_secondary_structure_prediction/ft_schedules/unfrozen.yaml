@@ -1,0 +1,6 @@
+0:
+    - adapter.*
+    - in_to_conv
+    - linear_x
+    - linear_y
+    - backbone.encoder.*

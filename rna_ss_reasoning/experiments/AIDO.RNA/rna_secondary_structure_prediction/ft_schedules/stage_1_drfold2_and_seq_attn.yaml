@@ -1,0 +1,13 @@
+0:
+    - drfold2_mlp
+    - sequence_x_linear
+    - sequence_y_linear
+    - adapter.resnet.down_linear
+    - adapter.resnet.attn_encoders
+5:
+    - aidorna_mlp
+    - protenix_mlp
+    - adapter.*
+    - linear_x
+    - linear_y
+    - backbone.encoder.*

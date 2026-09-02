@@ -1,0 +1,13 @@
+[
+  {
+    "sequences": [
+      {
+        "rnaSequence": {
+          "sequence": "UUGGGUUCCCUCACCCCAAUCAUAAAAAGN",
+          "count": 1
+        }
+      }
+    ],
+    "name": "test"
+  }
+]

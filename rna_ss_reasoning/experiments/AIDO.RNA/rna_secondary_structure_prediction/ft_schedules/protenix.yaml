@@ -1,0 +1,8 @@
+0:
+    - aidorna_mlp
+    - protenix_mlp
+10:
+    - adapter.*
+    - linear_x
+    - linear_y
+    - backbone.encoder.*

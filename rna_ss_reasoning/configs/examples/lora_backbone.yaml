@@ -1,0 +1,16 @@
+model:
+  class_path: modelgenerator.tasks.SequenceClassification
+  init_args:
+    n_classes: 2
+    optimizer:
+      class_path: torch.optim.AdamW
+      init_args:
+        lr: 0.001
+        weight_decay: 0.01
+    backbone:
+      class_path: modelgenerator.backbones.aido_dna_dummy
+      init_args:
+        use_peft: True
+        lora_r: 16
+        lora_alpha: 32
+        lora_dropout: 0.1

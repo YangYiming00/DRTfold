@@ -1,0 +1,7 @@
+trainer:
+  fast_dev_run: true
+  accelerator: auto
+  devices: 1
+  precision: 32
+  detect_anomaly: true
+  log_every_n_steps: 1

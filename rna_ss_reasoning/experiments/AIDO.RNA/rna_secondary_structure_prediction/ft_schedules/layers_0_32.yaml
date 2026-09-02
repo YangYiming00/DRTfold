@@ -1,0 +1,52 @@
+0:
+    - adapter.*
+    - in_to_conv
+    - linear_x
+    - linear_y
+3:
+    - backbone.encoder.encoder.ln.*
+    - backbone.encoder.encoder.layer.32.*
+    - backbone.encoder.encoder.layer.31.*
+    - backbone.encoder.encoder.layer.30.*
+6:
+    - backbone.encoder.encoder.layer.29.*
+    - backbone.encoder.encoder.layer.28.*
+    - backbone.encoder.encoder.layer.27.*
+9:
+    - backbone.encoder.encoder.layer.26.*
+    - backbone.encoder.encoder.layer.25.*
+    - backbone.encoder.encoder.layer.24.*
+12:
+    - backbone.encoder.encoder.layer.23.*
+    - backbone.encoder.encoder.layer.22.*
+    - backbone.encoder.encoder.layer.21.*
+15:
+    - backbone.encoder.encoder.layer.20.*
+    - backbone.encoder.encoder.layer.19.*
+    - backbone.encoder.encoder.layer.18.*
+18:
+    - backbone.encoder.encoder.layer.17.*
+    - backbone.encoder.encoder.layer.16.*
+    - backbone.encoder.encoder.layer.15.*
+21:
+    - backbone.encoder.encoder.layer.14.*
+    - backbone.encoder.encoder.layer.13.*
+    - backbone.encoder.encoder.layer.12.*
+24:
+    - backbone.encoder.encoder.layer.11.*
+    - backbone.encoder.encoder.layer.10.*
+    - backbone.encoder.encoder.layer.9.*
+27:
+    - backbone.encoder.encoder.layer.8.*
+    - backbone.encoder.encoder.layer.7.*
+    - backbone.encoder.encoder.layer.6.*
+30:
+    - backbone.encoder.encoder.layer.5.*
+    - backbone.encoder.encoder.layer.4.*
+    - backbone.encoder.encoder.layer.3.*
+33:
+    - backbone.encoder.encoder.layer.2.*
+    - backbone.encoder.encoder.layer.1.*
+    - backbone.encoder.encoder.layer.0.*
+36:
+    - backbone.encoder.*

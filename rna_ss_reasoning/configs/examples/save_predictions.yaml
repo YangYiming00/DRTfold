@@ -1,0 +1,6 @@
+trainer:
+  callbacks:
+  - class_path: modelgenerator.callbacks.PredictionWriter
+    dict_kwargs:
+      output_dir: predictions
+      filetype: pt

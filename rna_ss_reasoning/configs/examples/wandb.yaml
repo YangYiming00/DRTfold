@@ -1,0 +1,8 @@
+trainer:
+  logger: 
+    class_path: lightning.pytorch.loggers.wandb.WandbLogger
+    init_args:
+      name: "my-experiment-name"
+      save_dir: "logs"
+      project: "my-project"
+      save_code: true
