@@ -21,8 +21,7 @@ from contextlib import nullcontext
 from os.path import exists as opexists
 from os.path import join as opjoin
 from typing import Any, Mapping
-# import sys
-# sys.path.insert(0, "/work/c30636/rna_reasoning/Protenix")
+
 PROTENIX_PATH = os.environ["PROTENIX_PATH"]
 OUTPUT_PT_PATH = opjoin(PROTENIX_PATH, "output")
 import torch

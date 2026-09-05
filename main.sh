@@ -1,9 +1,9 @@
-WORKING_PATH=your_working_path
+WORKING_PATH= # you should set this environment variable to the path of DRTfold
 PROTENIX_PATH=$WORKING_PATH/Protenix # you should set this environment variable to the path of Protenix
 DRFOLD2_PATH=$WORKING_PATH/DRfold2 # you should set this environment variable to the path of DRfold2
 REASONING_PATH=$WORKING_PATH/rna_ss_reasoning/experiments/AIDO.RNA/rna_secondary_structure_prediction
 FASTA_FILE=$WORKING_PATH/input.fasta
-MODEL_PATH=your_model_path
+MODEL_PATH= # you should set this environment variable to the path of the model checkpoint file
 
 export FASTA_FILE=$FASTA_FILE
 export PROTENIX_PATH=$PROTENIX_PATH
